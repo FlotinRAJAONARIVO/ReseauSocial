@@ -1,0 +1,19 @@
+
+<h3 style="margin-top:70px;">Voulez vous envoyés une message?</h3>
+<form #f="ngForm" (submit)="addTechno(f)">
+    <label for="technoname">Destination :</label><br/>
+    <input type="text" id="technoname"  ngModel name="technoname"/><br/>
+    <label for="category">Catégorie</label>
+    <select id="category" ngModel name="category">
+        <option value="">---</option>
+        <option value="dev">Dev</option>
+        <option value="tech">Tech</option>
+        <option value="admin">Admin</option>
+    </select>
+    <br/>
+    <label for="details">Détails</label><br/>
+    <textarea id="details" cols="30" rows="5" ngModel name="details" placeholder="Ecrire une message"></textarea><br/>
+    <button type="submit">Envoyer</button>
+
+
+</form>
