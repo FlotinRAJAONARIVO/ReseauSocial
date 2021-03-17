@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { TechnoAddComponent } from './techno-add/techno-add.component';
 import { PublicationComponent } from './publication/publication.component';
 import { ParametresComponent } from './parametres/parametres.component';
+import { NotificationComponent } from './notification/notification.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ParametresComponent } from './parametres/parametres.component';
     HomeComponent,
     TechnoAddComponent,
     PublicationComponent,
-    ParametresComponent
+    ParametresComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,
